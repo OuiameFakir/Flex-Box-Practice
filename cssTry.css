@@ -1,0 +1,37 @@
+.container{
+    background:#ccc;
+    padding: 20px;
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item{
+    background:orangered;
+    color: white;
+    padding: inherit; 
+    margin: 2px;  
+}
+.item-1{
+    flex:1 1 100%;
+    
+}
+.item-2{
+    height: 100px;
+    flex:1 1 0;
+    
+}
+.item-3{
+    align-self: center;
+    flex:1 1 0;
+}
+.item-4{
+    align-self: center;
+    flex: 1 1 0;
+}
+.item-5{
+    flex: 1 1 0;
+}
+.item-6{
+    flex:1 1 100%;
+}
